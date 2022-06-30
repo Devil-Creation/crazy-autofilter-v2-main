@@ -1639,11 +1639,13 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('© 👥 🄲🄸🄽🄴🄷🅄🄱 coммυɴιтy', url='https://t.me/cinehub_family'),
+            InlineKeyboardButton('💡 About', callback_data="about'),
             InlineKeyboardButton('🔁 Share Us', url ='https://telegram.me/share/url?url=https://t.me/cinehub_family')
         ],[
             InlineKeyboardButton('Support 🛠', url='https://t.me/cinehub_family'),
             InlineKeyboardButton('Help ⚙', callback_data="help")
+        ],[
+            InlineKeyboardButton('© 👥 🄲🄸🄽🄴🄷🅄🄱 coммυɴιтy', url='https://t.me/cinehub_family')
         ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
