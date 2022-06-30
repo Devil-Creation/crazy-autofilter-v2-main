@@ -5,12 +5,12 @@
 class Translation(object):
     
     START_TEXT = """<b>👋 Hey {}!!</b>
-<i> ɪ'ᴍ  🄲🄸🄽🄴🄷🅄🄱 Auto Filter ɪɴ ᴄɪɴᴇʜᴜʙ ᴄᴏᴍᴍᴜɴɪᴛʏ . . .
+    
+    <b>ɪ'ᴍ  🄲🄸🄽🄴🄷🅄🄱 Auto Filter ɪɴ ᴄɪɴᴇʜᴜʙ ᴄᴏᴍᴍᴜɴɪᴛʏ . . .</b>
 
-මට පුලුවන් ඔයාට ඕන කර ғɪʟᴍ එක හෝ ᴛᴠ sᴇʀɪᴇs එකට ඔයාව direct කරන්න . . .
+<i><b>මට පුලුවන් ඔයාට ඕන කර ғɪʟᴍ එක හෝ ᴛᴠ sᴇʀɪᴇs එකට ඔයාව direct කරන්න . . </b></i>
 
-🍀 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ; @cinehub_family
-</i>"""    
+🍀 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ; @cinehub_family"""    
     
     HELP_TEXT = """
 <b><i><u>How To Use Me!?</u></i></b>
@@ -46,13 +46,13 @@ class Translation(object):
     
     ABOUT_TEXT = """<b>➥ Name</b> : <b>🄲🄸🄽🄴🄷🅄🄱 Auto Filter</b>
     
-<b>➥ Creator</b> : <b><a href="https://t.me/cinehub_family">© 👥 🄲🄸🄽🄴🄷🅄🄱 coммυɴιтy</a></b>
+<b>➥ Creator</b> : <a href="https://t.me/cinehub_family">© 👥 🄲🄸🄽🄴🄷🅄🄱 coммυɴιтy</a>
 
-<b>➥ Re-Modfied</b> : <b><a href="https://t.me/Mr_Devil_6699">Scrappy - Doo ×͜×</a></b>
+➥ Re-Modfied</b> : <a href="https://t.me/Mr_Devil_6699">Scrappy - Doo ×͜×</a>
 
-<b>➥ Language</b> : <code>Python3</code>
+➥ Language</b> : Python3
 
-<b>➥ Library</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
+➥ Library</b> : <a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a>
 
-<b>➥ Source Code</b> : 🔐
+➥ Source Code</b> : 🔐
 """
