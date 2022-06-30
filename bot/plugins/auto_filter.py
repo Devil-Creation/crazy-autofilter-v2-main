@@ -203,7 +203,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"Found {(len_results)} මේ තියෙන්නෙ ඔයා හොයපු <code>{query}</code>\n\n<a href="https://t.me/cinehub_family">© 👥 🄲🄸🄽🄴🄷🅄🄱 coммυɴιтy</a>",
+                text=f"Found {(len_results)} මේ තියෙන්නෙ ඔයා හොයපු <code>{query}</code>\n\n© 👥 🄲🄸🄽🄴🄷🅄🄱 coммυɴιтy",
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML,
                 reply_to_message_id=update.id
