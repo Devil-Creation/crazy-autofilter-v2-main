@@ -1639,7 +1639,7 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('💡 About', callback_data="about'),
+            InlineKeyboardButton('💡 About', callback_data="about"),
             InlineKeyboardButton('🔁 Share Us', url ='https://telegram.me/share/url?url=https://t.me/cinehub_family')
         ],[
             InlineKeyboardButton('Support 🛠', url='https://t.me/cinehub_family'),
